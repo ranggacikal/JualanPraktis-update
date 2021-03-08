@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.akun.UbahKataSandiActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarUbahPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgBackUbahPassword"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/arialbold"
+                android:gravity="center"
+                android:text="Ubah Password"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linear_password_lama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbarUbahPassword"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Kata Sandi Lama"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_input_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edt_password_lama_ubah"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/background_edt_white"
+                android:layout_marginTop="10dp"
+                android:hint="Kata Sandi Lama"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/show_pass_btn_pass_lama"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:alpha=".5"
+                android:padding="5dp"
+                android:src="@drawable/icon_awesome_eye_slash" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_lanjut_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_button_red"
+            android:text="Lanjut"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_password_baru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_below="@id/toolbarUbahPassword"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Kata Sandi Baru"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edt_password_baru_ubah"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/background_edt_white"
+                android:layout_marginTop="10dp"
+                android:hint="Kata Sandi Baru"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/show_pass_btn_pass_baru"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:alpha=".5"
+                android:padding="5dp"
+                android:src="@drawable/icon_awesome_eye_slash" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edt_password_konfirmasi_ubah"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/background_edt_white"
+                android:layout_marginTop="10dp"
+                android:hint="Konfirmasi Kata Sandi Baru"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/show_pass_btn_pass_konfirmasi"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:alpha=".5"
+                android:padding="5dp"
+                android:src="@drawable/icon_awesome_eye_slash" />
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/text_ubah_kata_sandi_tidak_cocok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KATA SANDI TIDAK COCOK !"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/text_ubah_kata_sandi_cocok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KATA SANDI COCOK"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/btn_oke_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_button_red"
+            android:text="Oke"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "151248524738",
+    "project_id": "jualanpraktis-1609573754515",
+    "storage_bucket": "jualanpraktis-1609573754515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151248524738:android:c44bb6a6e38716cd64f25b",
+        "android_client_info": {
+          "package_name": "www.starcom.com.jualanpraktis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151248524738-eefnqd3paekrhgghj1moddn3rpm2ce91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.starcom.com.jualanpraktis",
+            "certificate_hash": "15f5232e5bf63b1316c91e17c90afd2e4a5c83b9"
+          }
+        },
+        {
+          "client_id": "151248524738-1n29chbplp18og56h0f9eekkrh14h02m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1GoNbe07fXJ3vYdCLCUswc99PNdKyNks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151248524738-1n29chbplp18og56h0f9eekkrh14h02m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

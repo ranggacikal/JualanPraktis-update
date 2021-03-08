@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.akun.PenghasilanSayaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPenghasilanSaya"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgBackPenghasilanSaya"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/nuunito_bold"
+                android:gravity="center"
+                android:text="Penjualan Saya"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/headerPenghasilanSaya"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@+id/toolbarPenghasilanSaya"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:id="@+id/linear_riwayat_pencairan"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/background_circle_riwayat"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_riwayat" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_total_penghasilan_anda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nuunito_bold"
+            android:gravity="center"
+            android:text="Rp. 0.000.000"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nuunito_bold"
+            android:gravity="center"
+            android:text="Total penghasilan saya saat ini"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/btn_riwayat_pencairan"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_button_putih">
+
+            <TextView
+                android:id="@+id/text_button_periode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:fontFamily="@font/nuunito_bold"
+                android:gravity="center"
+                android:text="Semua Periode"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutPenghasilanSaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerPenghasilanSaya"
+        android:background="@color/white"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabMode="scrollable"
+        app:tabTextColor="@color/colorPrimary" />
+
+
+    <View
+        android:id="@+id/garis_grey_penghasilan_saya"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tabLayoutPenghasilanSaya"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+
+    <FrameLayout
+        android:id="@+id/framePenghasilanSaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/garis_grey_penghasilan_saya"
+        android:background="@android:color/white" />
+
+    <!--    <RelativeLayout-->
+    <!--        android:id="@+id/relative_total_pesanan_proses"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_below="@id/garis_grey_penghasilan_saya">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:gravity="center_vertical"-->
+    <!--            android:layout_marginLeft="15dp"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Total Penghasilan Saya"-->
+    <!--                android:textColor="@color/colorPrimary"/>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/text_totalpenghasilan_pesanan_proses"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Rp. 1.000.000"-->
+    <!--                android:textSize="20sp"-->
+    <!--                android:textStyle="bold"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:textColor="@color/colorPrimary"/>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_marginRight="15dp"-->
+    <!--            android:layout_alignParentRight="true">-->
+
+    <!--            <Spinner-->
+    <!--                android:id="@+id/spinner_tanggal_awal_penghasilan_saya"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="30dp"-->
+    <!--                android:background="@drawable/background_border_grey"/>-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="40dp"-->
+    <!--                android:layout_height="40dp"-->
+    <!--                android:src="@drawable/ic_panah_kanan"/>-->
+
+    <!--            <Spinner-->
+    <!--                android:id="@+id/spinner_tanggal_akhir_penghasilan_saya"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="30dp"-->
+    <!--                android:background="@drawable/background_border_grey"/>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/relative_total_pesanan_selesai"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/garis_grey_penghasilan_saya"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Potensi Penghasilan Yang Didapatkan"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/text_totalpenghasilan_pesanan_selesai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Rp. 1.000.000"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_total_pesanan_dibatalkan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/garis_grey_penghasilan_saya"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Potongan Penghasilan"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/text_totalpenghasilan_pesanan_dibatalkan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Rp. 1.000.000"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

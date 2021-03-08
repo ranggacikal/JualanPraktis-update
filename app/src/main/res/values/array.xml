@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="filterProduk">
+
+        <item>Produk Terbaru</item>
+        <item>Produk Terlaris</item>
+
+    </array>
+
+</resources>

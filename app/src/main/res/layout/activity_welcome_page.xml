@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePageActivity">
+
+    <TextView
+        android:id="@+id/textSelamatDatang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELAMAT DATANG DI"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:fontFamily="@font/nuunito_bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_below="@+id/textSelamatDatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jualan Praktis"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nuunito_bold"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <TextView
+        android:layout_above="@+id/linearYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Tonton video singkat berikut untuk memudahkan kamu dalam penggunaan aplikasi"
+        android:textSize="17sp"
+        android:fontFamily="@font/nuunito_bold"/>
+
+    <LinearLayout
+        android:id="@+id/linearYoutube"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <view
+        android:id="@+id/viewYoutubeWelcome"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone"
+        android:layout_height="230dp" />
+
+    <ImageView
+        android:id="@+id/imgThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        android:src="@android:color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_play_video"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/icon_play_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_tonton_nanti"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tonton Nanti >"
+                android:gravity="center"
+                android:fontFamily="@font/nuunito_bold"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:numberpicker="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_keranjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"
+                android:paddingLeft="4dp"
+                android:paddingTop="8dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="8dp">
+
+
+                <ImageView
+                    android:id="@+id/gambar"
+                    android:layout_width="55dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/bg_daftar"
+                    android:padding="4dp"
+                    android:src="@drawable/indomaret"
+                    app:layout_constraintBottom_toBottomOf="@id/number_picker"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/card_item_nama"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:text="Transfer Bank"
+                    android:textColor="@color/com_facebook_blue"
+                    android:textStyle="normal|bold"
+                    android:typeface="sans"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/gambar"
+                    app:layout_constraintTop_toTopOf="@id/gambar" />
+
+                <TextView
+                    android:id="@+id/card_item_harga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Rp. 200000"
+                    android:textColor="@android:color/holo_blue_light"
+                    app:layout_constraintStart_toEndOf="@id/gambar"
+                    app:layout_constraintTop_toBottomOf="@+id/card_item_nama" />
+
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:id="@+id/number_button"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:backgroundTint="@android:color/white"
+                    app:backGroundColor="#999"
+                    app:backgroundDrawable="@android:color/white"
+                    app:initialNumber="1"
+                    app:layout_constraintBottom_toBottomOf="@+id/card_item_harga"
+                    app:layout_constraintStart_toEndOf="@+id/card_item_harga"
+                    app:layout_constraintTop_toBottomOf="@+id/card_item_nama"
+                    app:layout_constraintTop_toTopOf="@+id/card_item_harga"
+                    app:textColor="@android:color/white"
+                    app:textSize="6sp" />
+
+                <www.starcom.com.jualanpraktis.utils.NumberPicker
+                    android:id="@+id/number_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/card_item_harga"
+                    app:layout_constraintStart_toEndOf="@+id/card_item_harga"
+                    app:layout_constraintTop_toTopOf="@+id/card_item_harga"
+                    numberpicker:focusable="false"
+                    numberpicker:max="20"
+                    numberpicker:min="1"
+                    numberpicker:unit="1" />
+
+                <ImageView
+                    android:id="@+id/card_item_jumlah"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Pending"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/card_item_harga"
+                    app:layout_constraintStart_toEndOf="@+id/card_item_harga"
+                    app:layout_constraintTop_toTopOf="@+id/card_item_harga" />
+
+                <ImageView
+                    android:id="@+id/buang"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_trash"
+                    android:tint="#999"
+                    app:layout_constraintBottom_toBottomOf="@+id/card_item_harga"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/card_item_harga" />
+
+                <TextView
+                    android:id="@+id/txt_sisa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_blue"
+                    android:gravity="center_vertical"
+                    android:padding="2dp"
+                    android:text="Tersisa 2 Produk"
+                    android:textColor="@android:color/white"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

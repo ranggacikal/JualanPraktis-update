@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_item_periode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_item_tanggal_awal_periode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tanggal awal"
+            android:textStyle="bold"
+            android:fontFamily="@font/nuunito_bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/text_item_tanggal_akhir_periode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tanggal akhir"
+            android:textStyle="bold"
+            android:fontFamily="@font/nuunito_bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

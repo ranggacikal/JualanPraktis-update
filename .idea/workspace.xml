@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a64695ac-9954-4ea7-96bb-09dcffe885bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____app_libs_GenAsync_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____app_libs_PhotoUtil_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____app_libs_YouTubeAndroidPlayerApi_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____app_libs_urlimageviewhelper_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0_rc01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_browser_browser_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_alpha01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_5_0_beta02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_5_0_beta02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_5_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_5_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media2_media2_1_0_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_mediarouter_mediarouter_1_0_0_alpha5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_palette_palette_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_alpha05_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_work_work_runtime_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amitshekhar_android_android_networking_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amulyakhare_com_amulyakhare_textdrawable_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_arthurivanets_bottomsheet_bottomsheets_core_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_cepheuen_elegant_number_button_lib_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_android_sdk_4_42_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_applinks_4_42_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_common_4_42_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_core_4_42_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_login_4_42_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_messenger_4_42_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_places_4_42_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_share_4_42_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_shimmer_shimmer_0_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_11_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_11_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_denzcoskun_ImageSlideshow_0_0_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_dhaval2404_imagepicker_support_1_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_javiersantos_AppUpdater_2_7_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_17_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_16_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_16_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_17_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_17_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_17_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_impl_17_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_17_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_17_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_placereport_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_alpha07_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_17_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_20_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_interop_19_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_components_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_19_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_18_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_zxing_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_10_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_10_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_runtime_10_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_journeyapps_zxing_android_embedded_3_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_loopj_android_android_async_http_1_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mcxiaoke_volley_library_1_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_miguelcatalan_materialsearchview_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nineoldandroids_library_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_android_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_applinks_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_tasks_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_pierfrancescosoffritti_androidyoutubeplayer_chromecast_sender_0_23_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_pierfrancescosoffritti_androidyoutubeplayer_core_10_0_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_qhutch_bottomsheetlayout_bottomsheetlayout_0_1_9_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_readystatesoftware_sqliteasset_sqliteassethelper_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_4_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_synnapps_carouselview_0_1_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cz_msebera_android_httpclient_4_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_3_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/JualanPraktis-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/JualanPraktis-master.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatamMal1l.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BatamMall.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/BatamMall.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/libs/GenAsync.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/libs/PhotoUtil.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/release/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/release/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/androidTest/java/www/starcom/com/batammall/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/assets/databases/pesan.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/ic_logo-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/ic_logo2-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/IDTansaksi/Shared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/IDTansaksi/idtransaksi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Kategori/CustomVolleyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Kategori/SliderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Kategori/ViewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Kategori/adapterkategori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Kategori/holderkategori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Kategori/objectkategori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Kategori/urlkategori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Keranjang/keranjangAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Keranjang/keranjangHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Login/SharedPrefManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Login/VolleySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Login/loginuser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Search/SearchAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Search/SearchHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Search/SearchObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SearchResultsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Spinner/SAdapter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Spinner/SAdapter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Spinner/SAdapter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Spinner/SObject1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Spinner/SObject2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/Spinner/SObject3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SubKategori/adaptersub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SubKategori/holdersub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SubKategori/objectsub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SubKategori/order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SubKategori/produk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SubKategori/produk_detail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SubKategori/urlsub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/SubKategori/util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/akun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/alamat_pengiriman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/daftar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/home_dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/keranjang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/keranjang2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/konfirmasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/java/www/starcom/com/batammall/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/logo-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/logo_batammall-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_akun_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_akun_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_cari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_home_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_home_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_keranjang_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_keranjang_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-hdpi/ic_tong_sampah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_akun_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_akun_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_cari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_home_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_home_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_keranjang_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_keranjang_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-mdpi/ic_tong_sampah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_akun_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_akun_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_cari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_home_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_home_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_keranjang_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_keranjang_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xhdpi/ic_tong_sampah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_akun_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_akun_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_cari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_home_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_home_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_keranjang_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_keranjang_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable-xxhdpi/ic_tong_sampah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/active_dots.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/background_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/bg_cari.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/bg_daftar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/bg_masuk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/lgm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/notactive_dots.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/drawable/tab_color_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/font/akronim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/font/allura.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/font/almendra_sc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/activity_daftar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/activity_konfirmasi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/activity_produk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/activity_produk_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/cardview_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/cardview_keranjang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/cardview_sub_kategori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/dialog_ubah_akun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/fragment_akun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/fragment_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/fragment_keranjang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/fragment_pengiriman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/layout_slide_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/spinner_list_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/spinner_list_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/layout/spinner_list_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-anydpi-v26/ic_logo2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-anydpi-v26/ic_logo2_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-anydpi-v26/logo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-anydpi-v26/logo_batammall.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-anydpi-v26/logo_batammall_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-anydpi-v26/logo_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/ic_logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/ic_logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/logo_batammall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/logo_batammall_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/logo_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-hdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/ic_logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/ic_logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/logo_batammall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/logo_batammall_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/logo_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-mdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/ic_logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/ic_logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/logo_batammall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/logo_batammall_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/logo_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xhdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/ic_logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/ic_logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/logo_batammall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/logo_batammall_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/logo_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxhdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/ic_logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/ic_logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/logo_batammall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/logo_batammall_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/logo_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/mipmap-xxxhdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/values/logo_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/values/logo_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/main/res/xml/searchable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/app/src/test/java/www/starcom/com/batammall/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/pesan.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RELEASE BATAMMALL/BatamMall/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/GenAsync.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/PhotoUtil.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/YouTubeAndroidPlayerApi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/urlimageviewhelper-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/www/starcom/com/jualanpraktis/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/databases/pesan.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/kebijakan_privasi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/term_and_condition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/EditAkunActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/FlashSaleActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/IDTansaksi/Shared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/IDTansaksi/idtransaksi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Kategori/CustomVolleyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Kategori/SliderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Kategori/ViewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Kategori/adapterkategori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Kategori/holderkategori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Kategori/objectkategori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Kategori/urlkategori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Keranjang/keranjangAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Keranjang/keranjangHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Login/Pref.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Login/SharedPrefManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Login/VolleySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Login/loginuser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/MapsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/MykatalogRecyclerViewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/PanduanFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/PenggunaanAppFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/PlayVideoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/RincianTransaksiSemuaActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Search/SearchAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Search/SearchHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Search/SearchObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SearchResultsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/Kecamatan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/KotaKabupaten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/Layanan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/Pekerjaan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/Pendidikan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/Penghasilan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/Provinsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/SAdapter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/SAdapter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/SAdapter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/SObject1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/SObject2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/SObject3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/StatusPerkawinan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/Spinner/Variasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/adaptersub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/adaptersubTerlaris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/holdersub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/objectSubTerlaris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/objectsub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/produk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/urlsub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/SubKategori/util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/TestActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/TipsTrickFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/WebLawActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/WelcomePageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/AddSaranAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/BankLainnyaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/BantuanAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/BatalkanTransaksiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/BelanjaBulananAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/CartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/CheckoutAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/DashboardAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/FavoritAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/FlashSaleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ImageSliderAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/Kategori2Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/KategoriAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/LacakAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ListBankAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/NotifikasiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PencairanAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PenerimaRincianAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PenerimaRincianSemuaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PenggunaanAppAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PenghasilanBatalAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PenghasilanProsesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PenghasilanSayaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PenghasilanSelesaiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PeriodeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PesananAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PesananSelesaiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PilihBankAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/PilihPengirimanAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ProdukAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ProdukEndlessScrollAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ProdukGambarAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ProdukPaginationAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ProdukRincianSemuaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ProdukRincianTransaksiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ProdukSejenisAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ResiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/StatusBelumDibayarAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/StatusDibatalkanAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/StatusDikemasAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/StatusDikirimAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/StatusDipesanAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/StatusDiterimaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/StatusDitukarAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/StatusTransaksiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/SubKategoriAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/TipsTrickAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/TukarPesananAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/UploadBuktiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/VariasiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/adapter/ViewPagerProdukAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/alamat_pengiriman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/api/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/api/ConfigRetrofit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/daftar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/dummy/DummyContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/KonfirmasiTransferActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/AkunCoorperateFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/AkunFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/AkunProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/AlasanPembatalanActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/BantuanActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/BatalkanTransaksiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/BelumDibayarFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/DetailRekeningBankActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/DibatalkanFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/DikemasFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/DikirimFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/DipesanFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/DiterimaFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/DitukarFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/NotifikasiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/PenghasilanSayaActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/PesananDibatalkanFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/PesananDiprosesFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/PesananSelesaiFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/PilihBankDetailRekeningActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/ProdukFavoritActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/RincianStatusTransaksiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/RincianTransaksiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/RiwayatPencairanActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/SelesaiFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/SemuaPesananFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/StatusTransaksiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/TukarkanPesananActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/UbahKataSandiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/akun/UploadBuktiTransferActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/belanja_bulanan/ListBelanjaBulananFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/belanja_bulanan/SaranActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/chat/ChatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/AdapterAlamat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/AdapterLayanan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/AdapterPesanan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/FormPilihEkspedisiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/FormTransaksiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/PilihAlamatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/PilihLayananEkspedisiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/ResultCodActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/form_pemesanan/ResultTransferActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/pembayaran/FormatText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/pembayaran/ListPembayaranFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/pembayaran/PembayaranActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/pembayaran/PembayaranAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/pembayaran/PembayaranProccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/pembayaran/ResultPembayaranActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/pesanan_saya/DetailPesananActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/pesanan_saya/ListPesananFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/produk/ListProdukActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/produk/ListProdukDiskonActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/produk/ListSubKategoriProdukActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/produk/ProdukDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/resi_pengiriman/DetailResiPengirimanActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/feature/resi_pengiriman/ListResiPengirimanFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/fileprovider/GenericFIleProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/home_dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/interfaces/FragmentCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/interfaces/PilihBankClickInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/interfaces/PilihPengirimanClickInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/interfaces/PilihPeriodeClickInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/katalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/keranjang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/keranjang2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/konfirmasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/HargaItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/ListBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/ListFavorit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/ListPencairan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/ListPenghasilanSaya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/ListProduk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/ListStatusTransaksi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/Periode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/Produk1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/Produk2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/Produk3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/Produk4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/ResponseGetDataBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model/ResultsProduk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/DataFavoriteItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/ResponseDataFavorite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/ResponseDataVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/ResponseRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/ResponseUpdateRekening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/bank_lainnya/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/bank_lainnya/ResponseBankLainnya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/bank_populer/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/bank_populer/ResponseBankPopuler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/batalkan_pesanan/ResponseBatalkanPesanan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/data_check/ResponseDataCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/datacheck/ResponseDataCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/editakun/ResponseInsertEditAkun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_bantuan/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_bantuan/ResponseDataBantuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_penggunaan_app/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_penggunaan_app/ResponseListPanduan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_penghasilan_selesai/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_penghasilan_selesai/ProdukItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_penghasilan_selesai/ResponseDataPenghasilanSelesai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_tips/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/model_tips/ResponseDataTips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/periode/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/periode/ResponseDataPeriode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/model_retrofit/tukar_pesanan/ResponseTukarPesanan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/service/ServiceTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/service/spyWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/CustomProgressDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/EndlessRecyclerOnScrollListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/Enums/ActionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/Interface/LimitExceededListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/Interface/ValueChangedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/Listener/ActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/Listener/DefaultLimitExceededListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/Listener/DefaultOnEditorActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/Listener/DefaultOnFocusChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/Listener/DefaultValueChangedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/NumberPicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/PaginationScrollListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/www/starcom/com/jualanpraktis/utils/SimpleCustomBottomSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/asset_diskon_flashsale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/banner_flashsale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_akun_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_akun_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_cari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_facebook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_ganti_kata_sandi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_home_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_home_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_keranjang_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_keranjang_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_nilai_kami.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_panduan_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_rekening_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_status_transaksi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tong_sampah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_awesome_eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_awesome_eye_slash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_cart_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_chat_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_fac_red_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_fav_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_fav_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_fav_solid_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_jualan_praktis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_jualan_praktis_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_kategori.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_keranjang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_material_report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_metro_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_notif_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logo_splash_white_hdpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/path_270.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/banner_flashsale_mdpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_akun_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_akun_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_cari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_home_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_home_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_keranjang_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_keranjang_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_tong_sampah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_panduan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_play_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/buttonstyleblue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/buttonstylegreen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/buttonstylegrey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/buttonstyleorange.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/buttonstylered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_logo_hitam_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_logo_putih_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background_landing_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background_login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/bagikan_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/banksumut.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/bantuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/bni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/cart_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/cimb_niaga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/diskon_batammall.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/email_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fashion_pria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fashion_pria_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fashion_pria_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fashion_wanita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_akun_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_akun_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_cari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_home_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_home_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_keranjang_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_keranjang_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_tong_sampah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_bantuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_ig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_keranjang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_rupiah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_tiktok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/iklan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/katalog_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/katalog_icon__red_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/komen_bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lgm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/linkaja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_splash_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/new_logo_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/new_logo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/order_now_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pesanan_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pesanan_icon__red_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/playbutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/print_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/profile_jualan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/qris_gambar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ratings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/redline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rupiah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/salin_icon__red_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/scan_qris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/search_bg_image_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sepatu_pria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sepatu_wanita.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/share_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sicepat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/star_rate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/testlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tiki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/toko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/unduh_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/untuk_anda_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/untuk_anda_icon__red_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/va_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/whatsapp_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/white_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/wishlist_button__active_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/wishlist_button__unactive_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/wishlist_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/wishlist_icon__red_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/afamart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/aksesoris_pria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/aksesoris_wanita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/akulaku.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/alfamartinfomaret.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/antar_batam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/banner_jualan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bcaicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/copy_icon__red_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/delete_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_akun_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_akun_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_cari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_home_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_home_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_keranjang_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_keranjang_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_tong_sampah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/indomaret.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/jne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/jnt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/kurir_jualan_praktis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_jualan_merah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logobcamandiri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logomandiri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/mandiri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/splash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_cart_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_profile_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_profile_register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/active_dot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/active_dots.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/backgroud_edittext_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_banner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_bantuan_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_bantuan_grup_dukungan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_bantuan_instagram.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_bantuan_linkdein.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_bantuan_tiktok.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_bantuan_twitter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_border_black.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_border_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_button_circle_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_button_list_putih.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_button_putih.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_button_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_circle_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_circle_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_circle_riwayat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_edit_text_circle_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_edittext_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_edittext_solid_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_edittext_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_edt_light_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_edt_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_kategori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_list_fb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_list_gray.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_list_ig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_list_sharing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_list_wa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_pilih_pengiriman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_pilih_pengiriman_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_rectangle_gray.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_solid_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_time_flashsale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_transparent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_blue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_blue_fb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_cari.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_daftar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_darkred.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_green.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_grey_outlinegreyy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_lightred.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_logout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_masuk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_outlinegreyy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/border_daftar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/border_gray.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/change_background_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_gray.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_keranjang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_image_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_belanja_bulanan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cart_blb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_checked.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_copy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_white_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favoritkan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_info_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_keyboard_arrow_right_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_logo_hitam_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_logo_putih_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notif_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_panah_kanan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_panah_kiri.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_riwayat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rupiah_money.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_send_package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_setting_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_trash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncheck.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_download.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/non_active_dot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/notactive_dots.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangle_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_color_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/akronim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/allura.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/almendra_sc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/arialbold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/arialrounded.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/bahnschrift.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/nuunito_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/nuunito_light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/nuunito_reguler.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_alasan_pembatalan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bantuan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_batalkan_transaksi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_daftar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_pesanan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_rekening_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_resi_pengiriman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_akun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_flash_sale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_form_pilih_ekspedisi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_form_transaksi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_konfirmasi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_konfirmasi_transfer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_list_produk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_list_produk_diskon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_list_sub_kategori_produk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notifikasi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pembayaran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_penghasilan_saya.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pilih_alamat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pilih_bank_detail_rekening.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pilih_layanan_ekspedisi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_play_video.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_produk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_produk_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_produk_favorit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_result_cod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_result_pembayaran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_result_transfer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rincian_status_transaksi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rincian_transaksi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rincian_transaksi_semua.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_riwayat_pencairan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_saran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_status_transaksi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tukarkan_pesanan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ubah_kata_sandi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_upload_bukti_transfer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_law.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_kategori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_keranjang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_sub_kategori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_dropdown_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_saran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_check_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_check_email_forgot_pass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_detail_rekening_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_download_gambar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_download_wa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_ekspedisi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_jenis_pembayaran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_konfirmasi_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_login_coorperate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_payment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_periode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_pesanan_selesai.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_pilih_variasi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_pilihan_pengiriman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_ubah_akun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_ubah_akun_coorperate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_ubah_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_update_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_akun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_akun_coorperate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_belum_dibayar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dibatalkan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dikemas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dikirim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dipesan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_diterima.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_ditukar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_katalog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_katalog_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_keranjang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list_belanja_bulanan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list_pembayaran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list_resi_pengiriman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_panduan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_penggunaan_app.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pengiriman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pesanan_dibatalkan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pesanan_diproses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pesanan_saya.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pesanan_selesai.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_selesai.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_semua_pesanan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tips_trick.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_add_saran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_alamat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_bank_lainnya.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_bantuan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_cart_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_favorit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_flash_sale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_image_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_kategori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lacak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_layanan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_notifikasi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_panduan_app.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_pembayaran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_penerima_rincian_semua.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_penerima_rincian_transaksi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_penghasilan_saya.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_penghasilan_saya_batal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_penghasilan_saya_selesai.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_periode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_pesanan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_pilih_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_produk2line.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_produk_checkout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_produk_rincian_transaksi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_produk_sejenis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_pruduk_rincian_transaksi_semua.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recycler_slider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_resi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_riwayat_pencairan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_spinner_periode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_status_transaksi_selesai.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_sub_kategori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_tips_tick.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_variasi_detail_produk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_view_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_list_produk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_slide_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layoutcontoh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_spinner_filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_status_dipesan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_status_transaksi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/number_picker_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/shimmer_kategori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/shimmer_linear_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/shimmer_produk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/shimmer_sub_kategori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/simple_spinner_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_list_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_list_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_list_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_bottom_sheet_content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/list_produk_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_logo_hitam.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_logo_putih_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/logo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/logo_batammall.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/logo_batammall_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/logo_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_logo_hitam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_logo_hitam_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_logo_putih.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_logo_putih_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/logo_batammall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/logo_batammall_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/logo_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_logo_hitam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_logo_hitam_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_logo_putih.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_logo_putih_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/logo_batammall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/logo_batammall_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/logo_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_logo_hitam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_logo_hitam_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_logo_putih.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_logo_putih_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/awesome_eye_slash_ldpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_logo_hitam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_logo_hitam_playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_logo_hitam_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_logo_putih.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_logo_putih_playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_logo_putih_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_logo_hitam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_logo_hitam_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_logo_putih.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_logo_putih_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/logo_batammall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/logo_batammall_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/logo_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/array.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/logo_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/logo_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/provider_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/searchable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/www/starcom/com/jualanpraktis/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystorebatammall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pesan.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tugas materi kwh.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JualanPraktis-master" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JualanPraktis-master" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JualanPraktis-master" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1p36WOUbqtofsH5cFFxyzmIlDoP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_XL_API_26" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-05T07:54:52.532Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-view/home/ranggacikal/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-alpha05/7268ce31ae47fa4d894101e0e994c0a13b53f99/recyclerview-1.1.0-alpha05-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BK-Kotlin-Beginner-Blog-master" />
+    <property name="multi-representation-preview/home/ranggacikal/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-alpha05/7268ce31ae47fa4d894101e0e994c0a13b53f99/recyclerview-1.1.0-alpha05-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="JualanPraktis-master.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JualanPraktis-master [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.JualanPraktis-master [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a64695ac-9954-4ea7-96bb-09dcffe885bb" name="Default Changelist" comment="" />
+      <created>1614399457522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614399457522</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1614493974530">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="491" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1614493974530" />
+    <state x="100" y="127" width="1166" height="541" key="AVDManager" timestamp="1614853190686">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="127" width="1166" height="541" key="AVDManager/0.27.1366.741@0.27.1366.741" timestamp="1614853190686" />
+    <state x="266" y="155" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1614493746816">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="266" y="155" width="824" height="491" key="AndroidCreateResourceFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1614493746816" />
+    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl" timestamp="1615196595200">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1615196595200" />
+    <state x="499" y="297" width="368" height="207" key="Github.ShareDialog" timestamp="1615196016662">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="499" y="297" width="368" height="207" key="Github.ShareDialog/0.27.1366.741@0.27.1366.741" timestamp="1615196016662" />
+    <state width="1320" height="474" key="GridCell.Tab.0.bottom" timestamp="1615183108327">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="474" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1615183108327" />
+    <state width="1320" height="474" key="GridCell.Tab.0.center" timestamp="1615183108326">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="474" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1615183108326" />
+    <state width="1320" height="474" key="GridCell.Tab.0.left" timestamp="1615183108326">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="474" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1615183108326" />
+    <state width="1320" height="474" key="GridCell.Tab.0.right" timestamp="1615183108327">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="474" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1615183108327" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1615197003589">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1615197003589" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1614427411496">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1614427411496" />
+    <state x="346" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1615197033205">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="88" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1615197033205" />
+  </component>
+</project>

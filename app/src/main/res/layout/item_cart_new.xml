@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:numberpicker="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_keranjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp">
+
+
+        <LinearLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/toko" />
+
+                <TextView
+                    android:id="@+id/text_nama_vendor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:text="Nama Vendor"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/gambar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_daftar"
+
+                    android:padding="4dp"
+                    android:src="@drawable/indomaret"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/card_item_nama"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:text="Transfer Bank"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:typeface="sans"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/gambar"
+                    app:layout_constraintTop_toTopOf="@id/gambar" />
+
+                <TextView
+                    android:id="@+id/item_variasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:text="Variasi : "
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    app:layout_constraintStart_toEndOf="@+id/gambar"
+                    app:layout_constraintTop_toBottomOf="@+id/card_item_nama"/>
+
+                <TextView
+                    android:id="@+id/card_item_variasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Variasi : "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    app:layout_constraintStart_toEndOf="@+id/item_variasi"
+                    app:layout_constraintTop_toTopOf="@+id/item_variasi"
+                    numberpicker:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/card_item_harga"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Rp. 200000"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/gambar"
+                    app:layout_constraintTop_toBottomOf="@+id/item_variasi" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/txt_sisa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_blue"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:visibility="gone"
+                    android:text="Tersisa 2 Produk"
+                    android:textColor="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/buang"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_trash"
+                    android:tint="#999"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    numberpicker:ignore="MissingConstraints" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/card_item_jumlah"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:text="Pending"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/card_item_harga"
+                app:layout_constraintStart_toEndOf="@+id/card_item_harga"
+                app:layout_constraintTop_toTopOf="@+id/card_item_harga" />
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/number_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@android:color/white"
+                android:visibility="gone"
+                app:backGroundColor="#999"
+                app:backgroundDrawable="@android:color/white"
+                app:initialNumber="1"
+                app:layout_constraintBottom_toBottomOf="@+id/card_item_harga"
+                app:layout_constraintStart_toEndOf="@+id/card_item_harga"
+                app:layout_constraintTop_toBottomOf="@+id/card_item_nama"
+                app:layout_constraintTop_toTopOf="@+id/card_item_harga"
+                app:textColor="@android:color/white"
+                app:textSize="6sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/harga_dropshipper"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_border_grey"
+                    android:imeOptions="actionDone"
+                    android:hint="Masukkan Harga Jual"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:paddingLeft="10dp"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_harga_jual_dibawah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harga jual tidak boleh dibawah harga produk"
+                    android:layout_below="@+id/harga_dropshipper"
+                    android:textSize="10sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/nuunito_bold"
+                    android:visibility="gone"/>
+
+                <www.starcom.com.jualanpraktis.utils.NumberPicker
+                    android:id="@+id/number_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    numberpicker:focusable="false"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    numberpicker:max="20"
+                    numberpicker:min="1"
+                    numberpicker:unit="1" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorPrimary"
+            android:contentInsetStart="0dp"
+            android:contentInsetLeft="0dp"
+            android:contentInsetEnd="0dp"
+            android:contentInsetRight="0dp"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/keranjang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/bahnschrift"
+                    android:text="BM"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imgKeranjang"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="-16dp"
+                    android:src="@drawable/icon_cart_grey"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@id/cari"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/cari" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/img_contact"-->
+                <!--                    android:layout_width="56dp"-->
+                <!--                    android:layout_height="40dp"-->
+                <!--                    android:src="@drawable/wishlist_icon__red_"-->
+                <!--                    app:layout_constraintBottom_toBottomOf="@id/cari"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintTop_toTopOf="@id/cari" />-->
+
+                <LinearLayout
+                    android:id="@+id/linear_header_dashboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    app:layout_constraintBottom_toBottomOf="@id/cari"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/cari"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/img_chat_dashboard"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon_chat_grey"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/img_favorite_dashboard"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon_fav_grey" />
+
+                    <ImageView
+                        android:id="@+id/img_notif_dashboard"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon_notif_grey" />
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cari"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/linear_header_dashboard"
+                    app:layout_constraintStart_toEndOf="@id/imgKeranjang"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/img"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_cari" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_toEndOf="@+id/img"
+                            android:fontFamily="@font/nuunito_bold"
+                            android:hint="Cari Produk" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundTint="@color/darkRed">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/nested_home_dashboard"
+                android:orientation="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/background_header">
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/pagerslide"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp" />
+
+                        <LinearLayout
+                            android:id="@+id/SliderDots"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="180dp"
+                            android:orientation="horizontal"
+                            android:padding="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_flash_sale"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="2dp"/>
+
+                        <LinearLayout
+                            android:id="@+id/ll_kategori"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/TextAppearance.AppCompat.Body2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Kategori Produk" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rv_kategori"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginRight="4dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lllistproudk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/imgIklan1"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="8dp"
+                                android:src="@drawable/iklan" />
+
+                            <TextView
+                                style="@style/TextAppearance.AppCompat.Body2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Produk baru upload" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rv_produk1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginRight="2dp" />
+
+                            <ImageView
+                                android:id="@+id/imgIklan2"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:src="@drawable/iklan" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rv_produk2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginRight="2dp" />
+
+                            <ImageView
+                                android:id="@+id/imgIklan3"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:src="@drawable/iklan" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rv_produk3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginRight="2dp" />
+
+                            <ImageView
+                                android:id="@+id/imgIklan4"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:src="@drawable/iklan" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rv_produk4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginRight="2dp" />
+
+                            <Button
+                                android:id="@+id/btn_see_all"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="4dp"
+                                android:backgroundTint="@color/colorPrimary"
+                                android:text="Lihat Semua Produk"
+                                android:textColor="@android:color/white" />
+
+                            <com.facebook.shimmer.ShimmerFrameLayout
+                                android:id="@+id/shimmerAllProduk"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:visibility="gone">
+
+                                <include layout="@layout/shimmer_produk" />
+
+                                <include layout="@layout/shimmer_produk" />
+
+                                <include layout="@layout/shimmer_produk" />
+                            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imgDiskon"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/diskon_batammall"
+                            android:visibility="gone" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_filter"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            app:cardCornerRadius="30dp"
+                            app:cardElevation="6dp">
+
+                            <Spinner
+                                android:id="@+id/spinner_filter_produk"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.core.widget.NestedScrollView
+                            android:id="@+id/scroll_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <TextView
+                                    android:id="@+id/text_data_kosong_home"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:fontFamily="@font/nuunito_bold"
+                                    android:text="BELUM ADA DATA"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"
+                                    android:visibility="gone" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/rv_produk"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginRight="4dp"
+                                    android:background="@color/white" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/rv_produk_terlaris"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginRight="4dp"
+                                    android:background="@color/white"
+                                    android:visibility="gone" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/rv_produk_terfavorit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginRight="4dp"
+                                    android:background="@color/white"
+                                    android:visibility="gone" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_dashboard"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:minHeight="50dp"
+                                    android:minWidth="50dp"
+                                    android:visibility="gone"
+                                    android:layout_gravity="center"/>
+
+                            </LinearLayout>
+
+
+                        </androidx.core.widget.NestedScrollView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:id="@+id/ll_all_produk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmer_kategori"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <include layout="@layout/shimmer_kategori" />
+
+                            <include layout="@layout/shimmer_kategori" />
+
+                        </LinearLayout>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@color/common_google_signin_btn_text_light_disabled" />
+
+                            <include layout="@layout/shimmer_produk" />
+
+                            <include layout="@layout/shimmer_produk" />
+
+                            <include layout="@layout/shimmer_produk" />
+                        </LinearLayout>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+                    <!--- KATEGORI Di non aktifkan diganti produk
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/tv1"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="KEB.SEHARI_HARI"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:gravity="center_vertical"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item1"
+                            android:layout_below="@+id/tv1"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv2"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="MAKANAN BEKU"
+                            android:layout_marginBottom="2dp"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item2"
+                            android:layout_below="@+id/tv2"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv3"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="MAKANAN INSTAN DAN KALENG"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"
+                            android:layout_marginStart="15dp" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item3"
+                            android:layout_below="@+id/tv3"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv4"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="BUAH,SAYUR,DAN IKAN"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"
+                            android:layout_marginStart="15dp" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item4"
+                            android:layout_below="@+id/tv4"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="MAKANAN RINGAN"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:background="@android:color/white"
+                            android:layout_marginBottom="2dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item5"
+                            android:layout_below="@+id/tv5"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv6"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="MINUMAN"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item6"
+                            android:layout_below="@+id/tv6"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv7"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="OBAT-OBATAN"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"
+                            android:layout_marginStart="15dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item7"
+                            android:layout_below="@+id/tv7"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv8"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="KEB.IBU DAN ANAK"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item8"
+                            android:layout_below="@+id/tv8"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv9"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="PERL MANDI DAN KECANTIKAN"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item9"
+                            android:layout_below="@+id/tv9"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv10"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="PEM.DAPUR,K.MANDI,DAN DETERGEN"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item10"
+                            android:layout_below="@+id/tv10"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv11"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="PEMBASMI SERANGGA,DAN PENGHARUM RUANGAN"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item11"
+                            android:layout_below="@+id/tv11"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv12"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="STATIONARY"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item12"
+                            android:layout_below="@+id/tv12"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv13"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="FASION"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item13"
+                            android:layout_below="@+id/tv13"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv14"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="ELEKTRONIK"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item14"
+                            android:layout_below="@+id/tv14"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv15"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="FURNITURE"
+                            android:gravity="center_vertical"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/white"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_item15"
+                            android:layout_below="@+id/tv15"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout> -->
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
